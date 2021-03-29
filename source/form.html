@@ -23,7 +23,52 @@
     </div>
   </nav>
 </header>
+  <main class="page-main">
+    <h1 class="page-main__title">Подбор программы</h1>
+    <p class="page-main__subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+    <form class="form" action="https://echo.htmlacademy.ru" method="get">
+      <fieldset class="cat">
+        <label class="field">
+          <span class="field__name">Имя:*</span>
+          <input type="text" class="field__control" placeholder="Барсик" required>
+        </label>
+        <label class="field">
+          <span class="field__name">Вес (кг):*</span>
+          <input type="text" class="field__control" placeholder="7" required>
+        </label>
+        <label class="field">
+          <span class="field__name">Возраст (лет):</span>
+          <input type="text" class="field__control" placeholder="7">
+        </label>
+      </fieldset>
+      <fieldset class="program-choice">
+        <ul class="program-choice__list">
+          <li>
+            <label class="program-choice__item">
+              <input type="radio" name="program" value="slimming" checked>
+              <span>Похудение</span>
+            </label>
+          </li>
+          <li>
+            <label class="program-choice__item">
+              <input type="radio" name="program" value="weight-gain">
+              <span>Набор массы</span>
+            </label>
+          </li>
+          <li>
+            <label class="program-choice__item">
+              <input type="radio" name="program" value="unknown">
+              <span>Не знаю (Нужен ваш совет)</span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <fieldset class="contacts">
 
+      </fieldset>
+    </form>
+
+  </main>
   <footer class="page-footer">
     <section class="contacts">
       <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
