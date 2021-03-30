@@ -64,10 +64,54 @@
         </ul>
       </fieldset>
       <fieldset class="contacts">
-
+        <h2 class="contacts__title">Контактные данные (владельца кота)</h2>
+        <label class="field">
+          <span class="field__name">E-mail:*</span>
+          <input type="text" class="field__control" placeholder="kuklachev@gmail.com" required>
+        </label>
+        <label class="field">
+          <span class="field__name">Телефон:*</span>
+          <input type="text" class="field__control" placeholder="8 (960) 900-60-90" required>
+        </label>
       </fieldset>
+      <div class="comment">
+        <h2 class="comment__title">Комментарий</h2>
+        <label>
+          <textarea class="comment__textarea" name="comment"></textarea>
+        </label>
+      </div>
+      <fieldset class="extra">
+        <h2 class="extra__title">Дополнительно</h2>
+        <ul class="extra__list">
+          <li class="extra__item">
+            <label>
+              <input class="extra__control" type="checkbox" name="sweetener">
+              <span class="extra__label">Cахарозаменитель</span>
+            </label>
+          </li>
+          <li class="extra__item">
+            <label>
+              <input class="extra__control" type="checkbox" name="water">
+              <span class="extra__label">Питьевая вода</span>
+            </label>
+          </li>
+          <li class="extra__item">
+            <label>
+              <input class="extra__control" type="checkbox" name="milk">
+              <span class="extra__label">Молоко</span>
+            </label>
+          </li>
+          <li class="extra__item">
+            <label>
+              <input class="extra__control" type="checkbox" name="vitamins">
+              <span class="extra__label">Витамины</span>
+            </label>
+          </li>
+        </ul>
+      </fieldset>
+      <button class="button" type="submit">Отправить заявку</button>
+      <span>* — Обязательные поля</span>
     </form>
-
   </main>
   <footer class="page-footer">
     <section class="contacts">
