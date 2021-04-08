@@ -2,10 +2,10 @@
 @import "global/variables.scss";
 @import "global/global.scss";
 @import "global/fonts.scss";
-@import "global/button.scss";
-@import "global/title.scss";
-@import "global/text.scss";
 // Blocks
+@import "blocks/button";
+@import "blocks/title";
+@import "blocks/text";
 @import "blocks/page.scss";
 @import "blocks/page-header.scss";
 @import "blocks/main-nav.scss";
