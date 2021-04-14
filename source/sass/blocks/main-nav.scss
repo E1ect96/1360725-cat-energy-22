@@ -1,5 +1,22 @@
+.main-nav {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+.main-nav__list {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
 .main-nav__item {
   font-family: $oswald;
   font-style: normal;
   font-weight: 500;
+  display: block;
 }
