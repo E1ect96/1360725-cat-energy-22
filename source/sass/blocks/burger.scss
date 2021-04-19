@@ -1,0 +1,8 @@
+.burger {
+  width: 24px;
+  height: 16px;
+
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
+}
