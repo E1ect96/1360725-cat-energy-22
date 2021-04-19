@@ -1,5 +1,7 @@
 .additional__list {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
 .additional__title {
@@ -8,6 +10,15 @@
   font-weight: 400;
   font-size: 24px;
   line-height: 24px;
+}
+
+.additional__item {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+  }
 }
 
 .additional__name {
