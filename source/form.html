@@ -12,7 +12,7 @@
     <img class="page-header__logo-title" src="img/svg/footer-logo.svg" width="128" height="24" alt="Кэт энерджи">
   </a>
   <nav class="main-nav">
-    <button class="main-nav__toggle" type="button">
+    <button class="burger" type="button">
       <span class="visually-hidden">Открыть меню</span>
     </button>
     <div class="main-nav__wrapper">
@@ -28,42 +28,44 @@
     <h1 class="page-main__title">Подбор программы</h1>
     <p class="page-main__subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</p>
     <form class="form" action="https://echo.htmlacademy.ru" method="get">
-      <fieldset class="cat">
-        <label class="field">
-          <span class="field__name text text--uppercase">Имя:*</span>
-          <input type="text" class="field__control text text--uppercase" placeholder="Барсик" required>
-        </label>
-        <label class="field">
-          <span class="field__name text--uppercase">Вес (кг):*</span>
-          <input type="number" class="field__control" placeholder="7" required>
-        </label>
-        <label class="field">
-          <span class="field__name text text--uppercase">Возраст (лет):</span>
-          <input type="number" class="field__control text text--uppercase" placeholder="7">
-        </label>
-      </fieldset>
-      <fieldset class="program-choice">
-        <ul class="program-choice__list">
-          <li>
-            <label class="radio text text--uppercase">
-              <input type="radio" name="program" value="slimming" checked>
-              <span>Похудение</span>
-            </label>
-          </li>
-          <li>
-            <label class="radio text text--uppercase">
-              <input type="radio" name="program" value="weight-gain">
-              <span>Набор массы</span>
-            </label>
-          </li>
-          <li>
-            <label class="radio text text--uppercase">
-              <input type="radio" name="program" value="unknown">
-              <span>Не знаю (Нужен ваш совет)</span>
-            </label>
-          </li>
-        </ul>
-      </fieldset>
+      <div class="form__header">
+        <fieldset class="cat">
+          <label class="field">
+            <span class="field__name text text--uppercase">Имя:*</span>
+            <input type="text" class="field__control text text--uppercase" placeholder="Барсик" required>
+          </label>
+          <label class="field">
+            <span class="field__name text--uppercase">Вес (кг):*</span>
+            <input type="number" class="field__control" placeholder="7" required>
+          </label>
+          <label class="field">
+            <span class="field__name text text--uppercase">Возраст (лет):</span>
+            <input type="number" class="field__control text text--uppercase" placeholder="7">
+          </label>
+        </fieldset>
+        <fieldset class="program-choice">
+          <ul class="program-choice__list">
+            <li>
+              <label class="radio text text--uppercase">
+                <input type="radio" name="program" value="slimming" checked>
+                <span>Похудение</span>
+              </label>
+            </li>
+            <li>
+              <label class="radio text text--uppercase">
+                <input type="radio" name="program" value="weight-gain">
+                <span>Набор массы</span>
+              </label>
+            </li>
+            <li>
+              <label class="radio text text--uppercase">
+                <input type="radio" name="program" value="unknown">
+                <span>Не знаю (Нужен ваш совет)</span>
+              </label>
+            </li>
+          </ul>
+        </fieldset>
+      </div>
       <fieldset class="contacts">
         <h2 class="form__title">Контактные данные (владельца кота)</h2>
         <label class="field ">
@@ -120,15 +122,17 @@
       <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
       <img src="img/png/map.png" alt="" class="contacts__map" width="320" height="362">
     </section>
-    <img src="img/svg/footer-logo.svg" alt="Cat Energy" class="page-footer__logo" height="24" width="128">
-    <div class="socials">
-      <ul class="socials__list">
-        <li class="socials__item">Вконтакте</li>
-        <li class="socials__item">Инстаграм</li>
-        <li class="socials__item">Фейсбук</li>
-      </ul>
+    <div class="page-footer__bottom">
+      <img src="img/svg/footer-logo.svg" alt="Cat Energy" class="page-footer__logo" height="24" width="128">
+      <div class="socials">
+        <ul class="socials__list">
+          <li class="socials__item">Вконтакте</li>
+          <li class="socials__item">Инстаграм</li>
+          <li class="socials__item">Фейсбук</li>
+        </ul>
+      </div>
+      <span class="developer">HTML Academy</span>
     </div>
-    <span class="developer">HTML Academy</span>
   </footer>
 </body>
 </html>
