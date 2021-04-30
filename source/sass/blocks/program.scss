@@ -1,5 +1,6 @@
 .program {
   background-color: $basic-grey;
+  padding: 0 20px;
 }
 
 .program__title {
@@ -9,6 +10,10 @@
   font-size: 24px;
   line-height: 37px;
   text-transform: uppercase;
+}
+
+.program__description {
+  width: 227px;
 }
 
 .program__link {

@@ -1,3 +1,9 @@
+.features__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
 .features__value {
   font-family: $oswald;
   font-style: normal;

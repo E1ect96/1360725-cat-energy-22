@@ -1,13 +1,16 @@
 .promo {
-  background-image: url("../../img/jpg/promo-background.jpg");
+  background-image: url("../../img/jpg/index-background-desktop.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-color: rgba($basic_green, 85%);
+  background-size: auto 100%, cover;
   font: $oswald, normal;
   text-transform: uppercase;
+  color: white;
 }
 
-.promo__title {
-  color: white;
+.promo__wrapper {
+  display: grid;
 }
 
 .promo__subtitle {
