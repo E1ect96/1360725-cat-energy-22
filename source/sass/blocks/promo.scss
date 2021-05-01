@@ -11,10 +11,24 @@
 
 .promo__wrapper {
   display: grid;
+  justify-items: center;
+}
+
+.promo__title {
+  width: 249px;
+  text-transform: none;
+  margin: 0;
+  padding-top: 27px;
 }
 
 .promo__subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.promo__image {
+  padding-top: 29px;
 }

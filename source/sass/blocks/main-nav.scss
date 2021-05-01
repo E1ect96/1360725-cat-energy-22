@@ -2,11 +2,13 @@
   flex-direction: column;
   list-style: none;
   width: 100%;
-  display: none;
+  display: flex;
   text-align: center;
 
-  &--open {
-    display: flex;
+  @media (max-width: $mobile-width-only) {
+    &--closed {
+      display: none;
+    }
   }
 }
 
@@ -31,4 +33,14 @@
   padding: 24px 0;
   text-transform: uppercase;
   border-top: 1px solid #e6e6e6;
+
+  @media (min-width: $tablet-width) {
+    border: 0;
+  }
+
+  &--current {
+    @media (min-width: $tablet-width) {
+      border-bottom: 2px solid $basic_green;
+    }
+  }
 }
