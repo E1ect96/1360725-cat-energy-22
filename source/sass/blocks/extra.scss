@@ -1,6 +1,12 @@
+.extra {
+  border: 0;
+}
+
 .extra__list {
   display: grid;
   grid-template-columns: 1fr;
+  list-style: none;
+  padding-inline-start: 0;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 1fr;
