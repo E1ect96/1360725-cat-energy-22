@@ -2,6 +2,7 @@
 @import "global/variables.scss";
 @import "global/global.scss";
 @import "global/fonts.scss";
+@import "blocks/container";
 // Blocks
 @import "blocks/button";
 @import "blocks/title";
@@ -19,11 +20,14 @@
 @import "blocks/features.scss";
 @import "blocks/was-now.scss";
 @import "blocks/page-footer.scss";
+@import "blocks/footer-logo.scss";
+@import "blocks/map.scss";
 @import "blocks/socials.scss";
 @import "blocks/contacts.scss";
 @import "blocks/form.scss";
 @import "blocks/cat.scss";
 @import "blocks/program-choice.scss";
+@import "blocks/owner-contacts.scss";
 @import "blocks/extra.scss";
 @import "blocks/catalog.scss";
 @import "blocks/product.scss";

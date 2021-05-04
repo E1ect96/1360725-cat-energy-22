@@ -1,17 +1,34 @@
 .promo {
-  background-image: url("../../img/jpg/promo-background.jpg");
+  background-image: url("../../img/jpg/index-background-desktop.jpg");
   background-repeat: no-repeat;
+  background-position: center;
   background-color: rgba($basic_green, 85%);
+  background-size: auto 100%, cover;
   font: $oswald, normal;
   text-transform: uppercase;
+  color: white;
+}
+
+.promo__wrapper {
+  display: grid;
+  justify-items: center;
 }
 
 .promo__title {
-  color: white;
+  width: 249px;
+  text-transform: none;
+  margin: 0;
+  padding-top: 27px;
 }
 
 .promo__subtitle {
   font-weight: 400;
   font-size: 14px;
   line-height: 14px;
+  margin: 0;
+  padding-top: 25px;
+}
+
+.promo__image {
+  padding-top: 29px;
 }

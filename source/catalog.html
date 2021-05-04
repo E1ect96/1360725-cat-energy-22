@@ -4,26 +4,29 @@
   <meta charset="UTF-8">
   <title>Каталог продукции</title>
   <link rel="stylesheet" href="css/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="page__body">
   <header class="page-header">
-  <a class="page-header__logo">
-    <img class="page-header__logo-image" src="img/svg/mobile-logo.svg" width="34" height="38" alt="Логотип Кэт энерджи">
-    <img class="page-header__logo-title" src="img/svg/footer-logo.svg" width="128" height="24" alt="Кэт энерджи">
-  </a>
-  <nav class="main-nav">
-    <button class="burger" type="button">
-      <span class="visually-hidden">Открыть меню</span>
-    </button>
-    <div class="main-nav__wrapper">
-      <ul class="main-nav__list">
-        <li class="main-nav__item main-nav__item--current"><a>Главная</a></li>
-        <li class="main-nav__item"><a href="catalog.html">Каталог продукции</a></li>
-        <li class="main-nav__item"><a href="form.html">Подбор программы</a></li>
-      </ul>
+    <div class="container">
+      <a class="page-header__logo">
+        <img class="page-header__logo-image" src="img/svg/mobile-logo.svg" width="34" height="38" alt="Логотип Кэт энерджи">
+        <img class="page-header__logo-title" src="img/svg/footer-logo.svg" width="128" height="24" alt="Кэт энерджи">
+      </a>
+      <nav class="main-nav">
+        <button class="burger" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--current"><a>Главная</a></li>
+            <li class="main-nav__item"><a href="catalog.html">Каталог продукции</a></li>
+            <li class="main-nav__item"><a href="form.html">Подбор программы</a></li>
+          </ul>
+        </div>
+      </nav>
     </div>
-  </nav>
-</header>
+  </header>
   <main class="page-main">
     <section class="catalog">
       <h1 class="page-main__title">Каталог продукции</h1>
@@ -218,13 +221,21 @@
     </section>
   </main>
   <footer class="page-footer">
-    <section class="contacts">
-      <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
-      <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
-      <img src="img/png/map.png" alt="" class="contacts__map" width="320" height="362">
-    </section>
-    <div class="page-footer__bottom">
-      <img src="img/svg/footer-logo.svg" alt="Cat Energy" class="page-footer__logo" height="24" width="128">
+    <div class="contacts__wrapper">
+      <div class="container">
+        <section class="contacts">
+          <h2 class="contacts__title">Приглашаем к сотрудничеству дилеров!</h2>
+          <p class="contacts__address">ул. Большая Конюшенная, д. 19/8 Санкт-Петербург</p>
+        </section>
+      </div>
+    </div>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989424124268!2d30.320894616487855!3d59.938796869047444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1619644373549!5m2!1sru!2sru" allowfullscreen=""></iframe>
+    </div>
+    <div class="page-footer__bottom container">
+      <a href="" class="footer-logo">
+        <img src="img/svg/footer-logo.svg" alt="Cat Energy" class="page-footer__logo" height="24" width="128">
+      </a>
       <div class="socials">
         <ul class="socials__list">
           <li class="socials__item">Вконтакте</li>
