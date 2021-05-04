@@ -7,23 +7,36 @@
   background-color: $basic_green;
   color: white;
   text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  width: 100%;
+}
+
+.button--disable {
+  background-color: $basic_grey;
+  color: $special_dark-grey;
 }
 
 .button--promo {
   width: 280px;
-  text-align: center;
   padding: 7px 0;
 }
 
 .button--submit {
-  width: 100%;
-  font-family: $oswald;
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  text-transform: uppercase;
   border: none;
   padding-top: 7px;
   padding-bottom: 7px;
+}
+
+.button--product {
+  display: inline-block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.button--show-more {
+  padding: 10px 0;
+  display: block;
 }

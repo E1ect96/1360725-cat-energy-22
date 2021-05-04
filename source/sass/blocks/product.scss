@@ -1,3 +1,10 @@
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 25px;
+  justify-content: space-between;
+}
+
 .product__title {
   font-family: $oswald;
   font-style: normal;
@@ -12,4 +19,11 @@
   font-size: 12px;
   line-height: 16px;
   color: $special_dark-grey;
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 22px;
+}
+
+.product__details td:last-child {
+  text-align: right;
 }
