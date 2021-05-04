@@ -28,65 +28,63 @@
       </nav>
     </div>
   </header>
-    <main class="page-main">
+  <main class="page-main">
       <div class="container">
         <h1 class="page-main__title">Подбор программы</h1>
         <p class="page-main__subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</p>
       </div>
       <form class="form" action="https://echo.htmlacademy.ru" method="get">
-        <div class="form__header ">
-          <fieldset class="cat">
-            <div class="container">
-              <label class="field">
-                <span class="field__name text--form text--uppercase">Имя:*</span>
-                <input type="text" class="field__control text--form text--uppercase" placeholder="Барсик" required>
-              </label>
-              <label class="field">
-                <span class="field__name text--form text--uppercase">Вес (кг):*</span>
-                <input type="number" class="field__control text--form text--uppercase" placeholder="7" required>
-              </label>
-              <label class="field">
-                <span class="field__name text--form text--uppercase">Возраст (лет):</span>
-                <input type="number" class="field__control text--form text--uppercase" placeholder="7">
-              </label>
-            </div>
-          </fieldset>
-          <fieldset class="program-choice">
-            <div class="container">
-              <ul class="program-choice__list">
-                <li>
-                  <label class="radio text--form text--uppercase">
-                    <input type="radio" name="program" value="slimming" checked>
-                    <span>Похудение</span>
-                  </label>
-                </li>
-                <li>
-                  <label class="radio text--form text--uppercase">
-                    <input type="radio" name="program" value="weight-gain">
-                    <span>Набор массы</span>
-                  </label>
-                </li>
-                <li>
-                  <label class="radio text--form text--uppercase">
-                    <input type="radio" name="program" value="unknown">
-                    <span>Не знаю (Нужен ваш совет)</span>
-                  </label>
-                </li>
-              </ul>
-            </div>
-          </fieldset>
+        <div class="form__header container">
+           <fieldset class="cat">
+             <label class="field">
+               <span class="field__name text--form text--uppercase">Имя:*</span>
+               <input type="text" class="field__control text--form text--uppercase" placeholder="Барсик" required>
+             </label>
+             <label class="field">
+               <span class="field__name text--form text--uppercase">Вес (кг):*</span>
+               <input type="number" class="field__control text--form text--uppercase" placeholder="7" required>
+             </label>
+             <label class="field">
+               <span class="field__name text--form text--uppercase">Возраст (лет):</span>
+               <input type="number" class="field__control text--form text--uppercase" placeholder="7">
+             </label>
+           </fieldset>
+           <fieldset class="program-choice">
+             <ul class="program-choice__list">
+               <li>
+                 <label class="radio text--form text--uppercase">
+                   <input type="radio" name="program" value="slimming" checked>
+                   <span>Похудение</span>
+                 </label>
+               </li>
+               <li>
+                 <label class="radio text--form text--uppercase">
+                   <input type="radio" name="program" value="weight-gain">
+                   <span>Набор массы</span>
+                 </label>
+               </li>
+               <li>
+                 <label class="radio text--form text--uppercase">
+                   <input type="radio" name="program" value="unknown">
+                   <span>Не знаю (Нужен ваш совет)</span>
+                 </label>
+               </li>
+             </ul>
+           </fieldset>
         </div>
         <fieldset class="owner-contacts">
           <div class="container">
             <h2 class="form__title form__title--line">Контактные данные (владельца кота)</h2>
-            <label class="field ">
-              <span class="field__name text--form text--uppercase">E-mail:*</span>
-              <input type="text" class="field__control text--form text--uppercase" placeholder="kuklachev@gmail.com" required>
-            </label>
-            <label class="field">
-              <span class="field__name text--form text--uppercase">Телефон:*</span>
-              <input type="text" class="field__control text--form text--uppercase" placeholder="8 (960) 900-60-90" required>
-            </label>
+            <div class="owner-contacts__wrapper">
+              <label class="field ">
+                <span class="field__name text--form text--uppercase">E-mail:*</span>
+                <input type="text" class="field__control text--form text--uppercase" placeholder="kuklachev@gmail.com" required>
+              </label>
+              <label class="field">
+                <span class="field__name text--form text--uppercase">Телефон:*</span>
+                <input type="text" class="field__control text--form text--uppercase" placeholder="8 (960) 900-60-90" required>
+              </label>
+            </div>
           </div>
         </fieldset>
         <div class="comment container">
