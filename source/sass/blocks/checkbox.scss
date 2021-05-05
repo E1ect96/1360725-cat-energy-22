@@ -1,0 +1,22 @@
+.checkbox {
+  display: block;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.checkbox__control {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 1px solid $special_grey;
+  margin-top: -5px;
+}
+
+.checkbox__input:checked + .checkbox__control {
+  background-image: url("../img/svg/tick.svg");
+}
+
+.checkbox__name {
+  padding-left: 45px;
+}
