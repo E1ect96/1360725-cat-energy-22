@@ -1,0 +1,31 @@
+.radio {
+  display: block;
+  position: relative;
+  padding-bottom: 25px;
+}
+
+.radio__control {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border: 1px solid $special_grey;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+.radio__input:checked + .radio__control::after {
+  content: "";
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  border: 7px solid $basic_green;
+  border-radius: 50%;
+  margin-top: 7px;
+  margin-left: 7px;
+}
+
+.radio__name {
+  padding-left: 45px;
+}
+

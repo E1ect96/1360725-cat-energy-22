@@ -1,0 +1,17 @@
+.field {
+  display: flex;
+  margin-bottom: 13px;
+}
+
+.field__name {
+  flex-shrink: 0;
+  margin-right: 13px;
+  align-self: center;
+}
+
+.field__control {
+  width: 100%;
+  border: 1px solid #e6e6e6;
+  padding: 14px;
+  background-color: white;
+}

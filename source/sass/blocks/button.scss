@@ -14,3 +14,16 @@
   text-align: center;
   padding: 7px 0;
 }
+
+.button--submit {
+  width: 100%;
+  font-family: $oswald;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  border: none;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
