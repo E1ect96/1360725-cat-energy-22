@@ -8,26 +8,30 @@
 </head>
 <body class="page__body">
   <header class="page-header">
-    <div class="container ">
-      <div class="page-header__top">
-        <a class="page-header__logo">
+  <div class="container ">
+    <div class="page-header__top">
+      <a class="page-header__logo">
+        <picture>
+          <source media="(min-width: 1440px)" srcset="img/svg/logo-desktop.svg">
+          <source media="(min-width: 768px)" srcset="img/svg/logo-tablet.svg">
           <img class="page-header__logo-image" src="img/svg/mobile-logo.svg" width="190" height="38" alt="Логотип Кэт энерджи">
-        </a>
-        <button class="burger burger--open" type="button">
-          <span class="visually-hidden">Открыть меню</span>
-        </button>
-      </div>
-      <nav class="main-nav">
-        <div class="main-nav__wrapper">
-          <ul class="main-nav__list">
-            <li class="main-nav__item"><a class="main-nav__link main-nav__link--current" href="">Главная</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="catalog.html">Каталог продукции</a></li>
-            <li class="main-nav__item"><a class="main-nav__link" href="form.html">Подбор программы</a></li>
-          </ul>
-        </div>
-      </nav>
+        </picture>
+      </a>
+      <button class="burger burger--open" type="button">
+        <span class="visually-hidden">Открыть меню</span>
+      </button>
     </div>
-  </header>
+    <nav class="main-nav">
+      <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item"><a class="main-nav__link main-nav__link--current" href="">Главная</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="catalog.html">Каталог продукции</a></li>
+          <li class="main-nav__item"><a class="main-nav__link" href="form.html">Подбор программы</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+</header>
   <main class="page-main">
       <div class="container">
         <h1 class="page-main__title">Подбор программы</h1>
