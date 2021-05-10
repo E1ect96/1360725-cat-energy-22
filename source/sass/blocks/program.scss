@@ -2,6 +2,7 @@
   background-color: $basic-grey;
   margin-top: 22px;
   padding: 30px 33px 18px 20px;
+  position: relative;
 }
 
 .program__title {
@@ -12,7 +13,26 @@
   line-height: 37px;
   text-transform: uppercase;
   margin: 0;
+  padding-left: 69px;
   padding-bottom: 29px;
+}
+
+.program__title--slimming::before {
+  content: "";
+  width: 50px;
+  height: 53px;
+  position: absolute;
+  margin-left: -69px;
+  background-image: url("../img/svg/cat_slim.svg");
+}
+
+.program__title--gain::before {
+  content: "";
+  width: 67px;
+  height: 50px;
+  position: absolute;
+  margin-left: -78px;
+  background-image: url("../img/svg/cat_gain.svg");
 }
 
 .program__description {
