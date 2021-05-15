@@ -2,6 +2,15 @@
   list-style: none;
   display: flex;
   justify-content: space-between;
+  padding-inline-start: 0;
+}
+
+.features__item {
+  position: relative;
+  border: 1px solid  $special_grey;
+  border-radius: 3px;
+  width: 124px;
+  text-align: center;
 }
 
 .features__value {
@@ -14,9 +23,15 @@
 }
 
 .features__description {
+  position: absolute;
+  display: block;
   font-size: 12px;
   line-height: 12px;
   color: $special_dark-grey;
+  width: 87px;
+  background-color: $special_grey-4;
+  bottom: -24px;
+  left: 15%;
 }
 
 .features__price {
@@ -26,4 +41,6 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
+  margin-top: 11px;
+  text-align: center;
 }
