@@ -1,5 +1,14 @@
 .description {
   background-color: transparent;
+  margin: 0;
+  padding-bottom: 47px;
+}
+
+.description__title {
+  @media (min-width: $tablet-width) {
+    font-size: 60px;
+    line-height: 60px;
+  }
 }
 
 .description__list {
@@ -11,6 +20,7 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 1fr;
+    gap: 37px 153px;
   }
 
   @media (min-width: $desktop-width) {
@@ -18,8 +28,31 @@
   }
 }
 
+.description__number {
+  display: none;
+  width: 0;
+  height: 0;
+
+  @media (min-width: $tablet-width) {
+    display: block;
+    width: 112px;
+    height: 280px;
+    font-size: 280px;
+    line-height: 280px;
+    color: $basic_grey;
+    position: absolute;
+    right: 28px;
+    top: 0;
+    z-index: -1;
+  }
+}
+
 .description__item {
   position: relative;
+
+  @media (min-width: $tablet-width) {
+    width: 230px;
+  }
 }
 
 .description__text--nature::before,
@@ -32,7 +65,12 @@
   left: 0;
   width: 60px;
   height: 60px;
-  background-image: url("../img/svg/nature.svg");
+
+  @media (min-width: $tablet-width) {
+    width: 80px;
+    height: 80px;
+    background-size: 80px;
+  }
 }
 
 .description__text--nature::before, {
@@ -53,4 +91,12 @@
 
 .description__text {
   padding-left: 80px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 0;
+    padding-top: 100px;
+    font-size: 16px;
+    line-height: 24px;
+    width: 201px;
+  }
 }

@@ -20,7 +20,8 @@
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
+    margin-top: 0;
   }
 }
 

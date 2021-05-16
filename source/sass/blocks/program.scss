@@ -3,6 +3,10 @@
   margin-top: 22px;
   padding: 30px 33px 18px 20px;
   position: relative;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 57px;
+  }
 }
 
 .program__title {
@@ -15,6 +19,13 @@
   margin: 0;
   padding-left: 69px;
   padding-bottom: 29px;
+
+  @media (min-width: $tablet-width) {
+    padding-top: 77px;
+    padding-left: 54px;
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .program__title--slimming::before {
@@ -24,6 +35,16 @@
   position: absolute;
   margin-left: -69px;
   background-image: url("../img/svg/cat_slim.svg");
+
+
+  @media (min-width: $tablet-width) {
+    width: 200px;
+    height: 211px;
+    margin-left: 0;
+    right: 28px;
+    top: 25%;
+    background-size: 200px;
+  }
 }
 
 .program__title--gain::before {
@@ -33,11 +54,30 @@
   position: absolute;
   margin-left: -78px;
   background-image: url("../img/svg/cat_gain.svg");
+  background-repeat: no-repeat;
+
+  @media (min-width: $tablet-width) {
+    width: 268px;
+    height: 200px;
+    margin-left: 0;
+    right: 28px;
+    top: 25%;
+    background-size: 268px;
+  }
 }
 
 .program__description {
   padding-bottom: 23px;
   margin-top: 0;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 54px;
+    font-size: 16px;
+    line-height: 24px;
+    padding-top: 24px;
+    padding-bottom: 48px;
+    width: 377px;
+  }
 }
 
 .program__link {
@@ -62,5 +102,11 @@
       height: 1px;
       background-color: #d9d9d9;
     }
+  }
+
+  @media (min-width: $tablet-width) {
+    padding-left: 52px;
+    font-size: 20px;
+    line-height: 30px;
   }
 }

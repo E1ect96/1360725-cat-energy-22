@@ -1,4 +1,8 @@
 .footer-logo {
   margin: 0 auto;
   max-width: 128px;
+
+  @media (min-width: $tablet-width) {
+    margin: 0;
+  }
 }

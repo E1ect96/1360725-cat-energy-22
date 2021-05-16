@@ -1,8 +1,19 @@
+.features {
+  @media (min-width: $tablet-width) {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
 .features__list {
   list-style: none;
   display: flex;
   justify-content: space-between;
   padding-inline-start: 0;
+
+  @media (min-width: $tablet-width) {
+    width: 366px;
+  }
 }
 
 .features__item {
@@ -43,4 +54,12 @@
   text-transform: uppercase;
   margin-top: 11px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+    width: 175px;
+    text-align: right;
+    align-self: center;
+  }
 }

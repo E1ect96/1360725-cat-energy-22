@@ -10,6 +10,11 @@
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .button--disable {
@@ -20,6 +25,14 @@
 .button--promo {
   width: 280px;
   padding: 7px 0;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    width: 224px;
+    padding: 14px 0;
+    top: 250px;
+    left: 120px;
+  }
 }
 
 .button--submit {
