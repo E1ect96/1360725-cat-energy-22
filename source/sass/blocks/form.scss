@@ -10,6 +10,11 @@
   line-height: 26px;
   position: relative;
   margin-right: 77px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 36px;
+    line-height: 36px;
+  }
 }
 
 .form__title--line::after {
