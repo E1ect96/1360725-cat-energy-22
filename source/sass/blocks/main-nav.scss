@@ -10,6 +10,10 @@
       display: none;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    width: 478px;
+  }
 }
 
 .main-nav__list {
@@ -23,6 +27,11 @@
     justify-content: space-between;
     margin-top: 0;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 478px;
+    background-color: transparent;
+  }
 }
 
 .main-nav__link {
@@ -31,7 +40,7 @@
   font-weight: 500;
   display: block;
   color: black;
-  padding: 24px 0;
+  padding: 8px 0;
   text-transform: uppercase;
   border-top: 1px solid #e6e6e6;
 
@@ -39,9 +48,17 @@
     border: 0;
   }
 
+  @media (min-width: $desktop-width) {
+    color: white;
+  }
+
   &--current {
     @media (min-width: $tablet-width) {
       border-bottom: 2px solid $basic_green;
+    }
+
+    @media (min-width: $desktop-width) {
+      border-bottom: 2px solid white;
     }
   }
 }

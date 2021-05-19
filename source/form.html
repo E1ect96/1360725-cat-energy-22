@@ -8,7 +8,7 @@
 </head>
 <body class="page__body">
   <header class="page-header">
-  <div class="container ">
+  <div class="container page-header__grid">
     <div class="page-header__top">
       <a class="page-header__logo">
         <picture>
@@ -34,8 +34,8 @@
 </header>
   <main class="page-main">
       <div class="container">
-        <h1 class="page-main__title">Подбор программы</h1>
-        <p class="page-main__subtitle">Заполните анкету, и мы подберем программу питания для вашего кота</p>
+        <h1 class="page-main__title page-main__title--form">Подбор программы</h1>
+        <p class="page-main__subtitle page-main__subtitle--form">Заполните анкету, и мы подберем программу питания для вашего кота</p>
       </div>
       <form class="form" action="https://echo.htmlacademy.ru" method="get">
         <div class="form__header container">
@@ -105,7 +105,7 @@
           <ul class="extra__list">
             <li class="extra__item">
               <label class="checkbox text--form text--uppercase">
-                <input class="checkbox__input visually-hidden" type="checkbox" name="sweetener">
+                <input class="checkbox__input visually-hidden" type="checkbox" name="sweetener" checked>
                 <span class="checkbox__control"></span>
                 <span class="checkbox__name">Cахарозаменитель</span>
               </label>
@@ -133,7 +133,7 @@
             </li>
           </ul>
         </fieldset>
-        <div class="container">
+        <div class="container form__submit">
           <button class="button button--submit" type="submit">Отправить заявку</button>
           <p class="form__footnote">* — Обязательные поля</p>
         </div>

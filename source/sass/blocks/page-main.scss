@@ -11,6 +11,10 @@
   }
 }
 
+.page-main__title--form {
+  padding-bottom: 37px;
+}
+
 .page-main__subtitle {
   font-family: $oswald;
   font-style: normal;
@@ -18,4 +22,8 @@
   font-size: 14px;
   line-height: 18px;
   text-transform: uppercase;
+}
+
+.page-main__subtitle--form {
+  padding-bottom: 39px;
 }
