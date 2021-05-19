@@ -7,6 +7,9 @@
   flex-direction: column;
 
   @media (min-width: $desktop-width) {
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 78px;
+    padding: 76px 0 69px 0;
   }
 }
