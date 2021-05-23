@@ -7,6 +7,10 @@
   @media (min-width: $tablet-width) {
     padding-bottom: 57px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 570px;
+  }
 }
 
 .program__title {
@@ -25,6 +29,10 @@
     padding-left: 54px;
     font-size: 36px;
     line-height: 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding-left: 162px;
   }
 }
 
@@ -45,6 +53,14 @@
     top: 25%;
     background-size: 200px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 100px;
+    height: 106px;
+    background-size: 100px;
+    top: 41px;
+    left: 52px;
+  }
 }
 
 .program__title--gain::before {
@@ -64,6 +80,14 @@
     top: 25%;
     background-size: 268px;
   }
+
+  @media (min-width: $desktop-width) {
+    width: 134px;
+    height: 100px;
+    background-size: 134px;
+    top: 47px;
+    left: 33px;
+  }
 }
 
 .program__description {
@@ -77,6 +101,10 @@
     padding-top: 24px;
     padding-bottom: 48px;
     width: 377px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 467px;
   }
 }
 

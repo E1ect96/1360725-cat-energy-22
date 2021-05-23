@@ -79,60 +79,67 @@
              </ul>
            </fieldset>
         </div>
-        <fieldset class="owner-contacts">
-          <div class="container">
-            <h2 class="form__title form__title--line">Контактные данные (владельца кота)</h2>
-            <div class="owner-contacts__wrapper">
-              <label class="field ">
-                <span class="field__name text--form text--uppercase">E-mail:*</span>
-                <input type="text" class="field__control text--form text--uppercase" placeholder="kuklachev@gmail.com" required>
-              </label>
-              <label class="field">
-                <span class="field__name text--form text--uppercase">Телефон:*</span>
-                <input type="text" class="field__control text--form text--uppercase" placeholder="8 (960) 900-60-90" required>
-              </label>
+        <div class="form__overflow">
+          <fieldset class="owner-contacts">
+
+            <div class="container">
+              <h2 class="form__title form__title--line">Контактные данные (владельца кота)</h2>
+              <div class="owner-contacts__wrapper">
+                <label class="field ">
+                  <span class="field__name text--form text--uppercase">E-mail:*</span>
+                  <input type="text" class="field__control text--form text--uppercase" placeholder="kuklachev@gmail.com" required>
+                </label>
+                <label class="field">
+                  <span class="field__name text--form text--uppercase">Телефон:*</span>
+                  <input type="text" class="field__control text--form text--uppercase" placeholder="8 (960) 900-60-90" required>
+                </label>
+              </div>
             </div>
-          </div>
-        </fieldset>
-        <div class="comment container">
-          <h2 class="form__title form__title--line">Комментарий</h2>
-          <label class="comment__label">
-            <textarea class="comment__textarea text--form text--uppercase" name="comment" rows="8" placeholder="Расскажите обо всех повадках кота"></textarea>
-          </label>
+          </fieldset>
         </div>
-        <fieldset class="extra container">
-          <h2 class="form__title form__title--line">Дополнительно</h2>
-          <ul class="extra__list">
-            <li class="extra__item">
-              <label class="checkbox text--form text--uppercase">
-                <input class="checkbox__input visually-hidden" type="checkbox" name="sweetener" checked>
-                <span class="checkbox__control"></span>
-                <span class="checkbox__name">Cахарозаменитель</span>
-              </label>
-            </li>
-            <li class="extra__item">
-              <label  class="checkbox text--form text--uppercase">
-                <input class="checkbox__input visually-hidden" type="checkbox" name="water">
-                <span class="checkbox__control"></span>
-                <span class="checkbox__name">Питьевая вода</span>
-              </label>
-            </li>
-            <li class="extra__item">
-              <label  class="checkbox text--form text--uppercase">
-                <input class="checkbox__input visually-hidden" type="checkbox" name="milk">
-                <span class="checkbox__control"></span>
-                <span class="checkbox__name">Молоко</span>
-              </label>
-            </li>
-            <li class="extra__item">
-              <label  class="checkbox text--form text--uppercase">
-                <input class="checkbox__input visually-hidden" type="checkbox" name="vitamins">
-                <span class="checkbox__control"></span>
-                <span class="checkbox__name">Витамины</span>
-              </label>
-            </li>
-          </ul>
-        </fieldset>
+        <div class="form__overflow">
+          <div class="comment container">
+            <h2 class="form__title form__title--line">Комментарий</h2>
+            <label class="comment__label">
+              <textarea class="comment__textarea text--form text--uppercase" name="comment" rows="8" placeholder="Расскажите обо всех повадках кота"></textarea>
+            </label>
+          </div>
+        </div>
+        <div class="form__overflow">
+          <fieldset class="extra container">
+            <h2 class="form__title form__title--line">Дополнительно</h2>
+            <ul class="extra__list">
+              <li class="extra__item">
+                <label class="checkbox text--form text--uppercase">
+                  <input class="checkbox__input visually-hidden" type="checkbox" name="sweetener" checked>
+                  <span class="checkbox__control"></span>
+                  <span class="checkbox__name">Cахарозаменитель</span>
+                </label>
+              </li>
+              <li class="extra__item">
+                <label  class="checkbox text--form text--uppercase">
+                  <input class="checkbox__input visually-hidden" type="checkbox" name="water">
+                  <span class="checkbox__control"></span>
+                  <span class="checkbox__name">Питьевая вода</span>
+                </label>
+              </li>
+              <li class="extra__item">
+                <label  class="checkbox text--form text--uppercase">
+                  <input class="checkbox__input visually-hidden" type="checkbox" name="milk">
+                  <span class="checkbox__control"></span>
+                  <span class="checkbox__name">Молоко</span>
+                </label>
+              </li>
+              <li class="extra__item">
+                <label  class="checkbox text--form text--uppercase">
+                  <input class="checkbox__input visually-hidden" type="checkbox" name="vitamins">
+                  <span class="checkbox__control"></span>
+                  <span class="checkbox__name">Витамины</span>
+                </label>
+              </li>
+            </ul>
+          </fieldset>
+        </div>
         <div class="container form__submit">
           <button class="button button--submit" type="submit">Отправить заявку</button>
           <p class="form__footnote">* — Обязательные поля</p>

@@ -3,10 +3,29 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 28px;
+  padding-bottom: 28px;
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+    top: 95px;
+    background-color: white;
+    width: 570px;
+    height: 201px;
+    justify-content: space-around;
+  }
+
+  &--main {
+    background-color: white;
+  }
 }
 
 .contacts__wrapper {
   background-color: $basic_grey;
+
+  &--main {
+    background-color: white;
+  }
 }
 
 .contacts__title {
@@ -33,5 +52,14 @@
   @media (min-width: $tablet-width) {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+
+.contacts__address p {
+  margin: 0;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 1em;
+    width: 159px;
   }
 }
