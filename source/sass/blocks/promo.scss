@@ -64,6 +64,10 @@
     text-align: left;
     justify-items: start;
   }
+
+  @media (min-width: $desktop-width) {
+    position: relative;
+  }
 }
 
 
@@ -84,6 +88,7 @@
 
   @media (min-width: $desktop-width) {
     padding-left: 80px;
+    padding-top: 104px;
   }
 }
 
@@ -110,9 +115,9 @@
 
 .promo__picture {
   @media (min-width: $desktop-width) {
-    grid-column: 2 / 11;
-    grid-row: 1/5;
-    justify-self: start;
+    position: absolute;
+    right: 330px;
+    top: 2px;
   }
 }
 

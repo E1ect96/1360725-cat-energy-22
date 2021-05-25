@@ -17,6 +17,7 @@
     width: 570px;
     height: 201px;
     justify-content: space-around;
+    padding-left: 35px;
   }
 
   &--main {
@@ -72,6 +73,12 @@
     text-align: right;
     padding-top: 20px;
     max-width: 169px;
+  }
+
+  @media (min-width: $desktop-width) {
+    text-align: left;
+    padding-left: 9px;
+    padding-top: 22px;
   }
 }
 

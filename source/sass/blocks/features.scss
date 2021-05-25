@@ -6,6 +6,7 @@
 
   @media (min-width: $desktop-width) {
     display: grid;
+    padding-top: 67px;
   }
 }
 
@@ -18,6 +19,11 @@
   @media (min-width: $tablet-width) {
     width: 366px;
     margin-top: 29px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
+    margin-bottom: 60px;
   }
 }
 
@@ -99,9 +105,10 @@
   @media (min-width: $desktop-width) {
     width: 332px;
     text-align: left;
+    margin-top: 0;
 
     & span {
-      margin-right: 63px;
+      margin-right: 59px;
     }
   }
 }

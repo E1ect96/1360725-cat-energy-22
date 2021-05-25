@@ -5,6 +5,10 @@
   @media (min-width: $tablet-width) {
     margin-bottom: 87px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 47px;
+  }
 }
 
 .description__title {
@@ -15,6 +19,10 @@
     margin-top: 43px;
     font-size: 60px;
     line-height: 60px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 71px;
   }
 }
 
@@ -32,7 +40,7 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 94px;
+    grid-column-gap: 80px;
   }
 }
 

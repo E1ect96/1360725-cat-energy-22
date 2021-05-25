@@ -2,6 +2,10 @@
   @media (min-width: $tablet-width) {
     margin-top: -7px;
   }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 46px;
+  }
 }
 
 .programs__list {
@@ -20,10 +24,12 @@
   }
 }
 
-.programs__item {
+.programs__item:last-child {
   @media (min-width: $tablet-width) {
-    &:last-child {
-      margin-top: 30px;
-    }
+    margin-top: 30px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-top: 0;
   }
 }
