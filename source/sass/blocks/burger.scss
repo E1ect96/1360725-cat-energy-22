@@ -3,12 +3,12 @@
   top: 0;
   right: 0;
   z-index: 2;
-  display: block;
   cursor: pointer;
   border: none;
   width: 24px;
   height: 16px;
   background-color: white;
+  display: none;
 
   @media (min-width: $tablet-width) {
     display: none;

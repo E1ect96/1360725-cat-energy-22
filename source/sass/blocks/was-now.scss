@@ -5,13 +5,74 @@
   font-size: 16px;
   line-height: 20px;
   text-transform: uppercase;
-  padding-bottom: 39px;
+  margin-top: 42px;
+  padding-bottom: 35px;
+  position: relative;
+
+  @media (min-width: $desktop-width) {
+    grid-row: 1 / 4;
+    grid-column: 2 / 3;
+  }
+}
+
+.was-now__compare {
+  display: flex;
+  position: relative;
+  margin-left: -20px;
+
+  @media (min-width: $tablet-width) {
+    position: relative;
+  }
+
+  @media (min-width: $desktop-width) {
+    max-width: 690px;
+    height: 536px;
+  }
+}
+
+.was-now__image {
+
+  @media (min-width: $desktop-width) {
+    position: absolute;
+  }
+
+  &--before {
+    @media (min-width: $desktop-width) {
+      clip: rect(auto, 365px, auto, auto);
+      left: 0;
+    }
+  }
+
+  &--after {
+    display: none;
+
+    @media (min-width: $tablet-width) {
+      display: block;
+    }
+
+    @media (min-width: $desktop-width) {
+      top: 2px;
+      right: -80px;
+      clip: rect(auto, 536px, 536px, auto);
+    }
+  }
 }
 
 .was-now__compare-slider {
   display: flex;
-  justify-content: center;
-  padding-top: 35px;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-content: center;
+  margin-left: 44px;
+  margin-right: 39px;
+
+  & span {
+    @media (min-width: $tablet-width) {
+      font-size: 20px;
+      line-height: 30px;
+      border-bottom: 1px dotted #b2b2b2;
+    }
+  }
 }
 
 .was-now__slider {
@@ -22,8 +83,7 @@
   background-color: white;
   border: 1px solid $special_grey;
   border-radius: 6px;
-  margin-left: 12px;
-  margin-right: 13px;
+  margin-top: 2px;
 
   @media (min-width: $tablet-width) {
     width: 428px;

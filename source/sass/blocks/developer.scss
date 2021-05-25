@@ -1,10 +1,12 @@
 .developer {
   display: flex;
   justify-content: space-between;
+  padding-top: 22px;
 }
 
 .developer__link {
   color: $special_dark-grey;
+  padding-top: 4px;
 
   @media (min-width: $tablet-width) {
     padding-right: 28px;

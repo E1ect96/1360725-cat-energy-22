@@ -44,6 +44,12 @@
       left: -808px;
     }
   }
+
+  @media (min-width: $desktop-width) {
+    &::before {
+      left: -1480px;
+    }
+  }
 }
 
 .form__header {

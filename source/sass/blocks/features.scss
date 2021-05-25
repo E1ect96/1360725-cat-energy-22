@@ -3,6 +3,10 @@
     display: flex;
     justify-content: space-between;
   }
+
+  @media (min-width: $desktop-width) {
+    display: grid;
+  }
 }
 
 .features__list {
@@ -22,6 +26,10 @@
   border-radius: 3px;
   width: 124px;
   text-align: center;
+
+  @media (min-width: $tablet-width) {
+    width: 162px;
+  }
 }
 
 .features__value {
@@ -31,6 +39,16 @@
   font-size: 24px;
   line-height: 24px;
   text-transform: uppercase;
+  margin: 0;
+  padding-top: 14px;
+  padding-bottom: 18px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 37px;
+    padding-top: 15px;
+    padding-bottom: 20px;
+  }
 }
 
 .features__description {
@@ -41,8 +59,22 @@
   color: $special_dark-grey;
   width: 87px;
   background-color: $special_grey-4;
-  bottom: -24px;
-  left: 15%;
+  bottom: -26px;
+  left: 17px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 14px;
+    line-height: 14px;
+    width: 127px;
+    left: 11%;
+    bottom: -20px;
+  }
+}
+
+.features__br {
+  @media (min-width: $tablet-width) {
+    display: none;
+  }
 }
 
 .features__price {
@@ -52,7 +84,7 @@
   font-size: 14px;
   line-height: 20px;
   text-transform: uppercase;
-  margin-top: 11px;
+  margin-top: 32px;
   text-align: center;
 
   @media (min-width: $tablet-width) {
@@ -61,5 +93,13 @@
     width: 175px;
     text-align: right;
     align-self: center;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 332px;
+    text-align: left;
+    & span {
+      margin-right: 63px;
+    }
   }
 }

@@ -1,10 +1,12 @@
 .description {
   background-color: transparent;
   margin: 0;
-  padding-bottom: 47px;
 }
 
 .description__title {
+  margin-top: 26px;
+  margin-bottom: 28px;
+
   @media (min-width: $tablet-width) {
     font-size: 60px;
     line-height: 60px;
@@ -25,6 +27,7 @@
 
   @media (min-width: $desktop-width) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 94px;
   }
 }
 
@@ -90,7 +93,9 @@
 }
 
 .description__text {
+  margin-top: 12px;
   padding-left: 80px;
+
 
   @media (min-width: $tablet-width) {
     padding-left: 0;

@@ -21,6 +21,8 @@
   flex-direction: column;
   list-style: none;
   padding-inline-start: 0;
+  margin-top: 8px;
+  margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
     flex-direction: row;
@@ -38,9 +40,12 @@
   font-family: $oswald;
   font-style: normal;
   font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
   display: block;
   color: black;
-  padding: 8px 0;
+  padding-top: 22px;
+  padding-bottom: 23px;
   text-transform: uppercase;
   border-top: 1px solid #e6e6e6;
 
