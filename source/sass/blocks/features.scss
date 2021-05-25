@@ -17,6 +17,7 @@
 
   @media (min-width: $tablet-width) {
     width: 366px;
+    margin-top: 29px;
   }
 }
 
@@ -98,6 +99,7 @@
   @media (min-width: $desktop-width) {
     width: 332px;
     text-align: left;
+
     & span {
       margin-right: 63px;
     }

@@ -50,7 +50,6 @@
       @media (min-resolution: 2dppx) {
         background-image: url("../img/jpg/promo-background-desktop@2x.jpg");
         background-size: 1440px auto;
-
       }
     }
   }
@@ -77,8 +76,10 @@
 
   @media (min-width: $tablet-width) {
     color: black;
+    padding-top: 58px;
     padding-left: 87px;
     width: 100%;
+    text-align: left;
   }
 
   @media (min-width: $desktop-width) {
@@ -96,6 +97,7 @@
 
   @media (min-width: $tablet-width) {
     color: black;
+    padding-top: 41px;
     padding-left: 87px;
     font-size: 20px;
     line-height: 20px;
@@ -115,7 +117,7 @@
 }
 
 .promo__image {
-  margin-top: 29px;
+  margin-top: 20px;
 
   @media (min-width: $tablet-width) {
     width: 709px;
