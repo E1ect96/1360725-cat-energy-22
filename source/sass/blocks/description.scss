@@ -79,7 +79,7 @@
 .description__text--time::before {
   position: absolute;
   content: "";
-  top: 44px;
+  top: 11px;
   left: 0;
   width: 60px;
   height: 60px;
@@ -88,6 +88,7 @@
     width: 80px;
     height: 80px;
     background-size: 80px;
+    top: 44px;
   }
 }
 

@@ -2,9 +2,16 @@
   background-color: $special_grey-4;
   margin-top: 32px;
 
+  @media (min-width: $tablet-width) {
+    border-top: 1px solid #e6e6e6;
+    background: linear-gradient(white 619px, #eaeaea 619px);
+  }
+
   @media (min-width: $desktop-width) {
     margin-top: 0;
     padding-bottom: 53px;
+    border: none;
+    background: linear-gradient(white 198px, $basic_grey 198px);
   }
 }
 

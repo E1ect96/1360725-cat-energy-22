@@ -22,7 +22,7 @@
     right: 0;
     width: 100%;
     height: 302px;
-    background-color: #71a24e;
+    background-color: #61a53b;
     z-index: -1;
     background-image: url("../img/jpg/promo-background-mobile.jpg");
     background-repeat: no-repeat;
@@ -35,6 +35,7 @@
 
     @media (min-width: $tablet-width) {
       display: none;
+      background-color: #71a24e;
     }
 
     @media (min-width: $desktop-width) {
@@ -122,9 +123,10 @@
 }
 
 .promo__image {
-  margin-top: 20px;
+  margin-top: 28px;
 
   @media (min-width: $tablet-width) {
+    margin-top: 20px;
     width: 709px;
     height: 609px;
   }
