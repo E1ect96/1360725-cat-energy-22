@@ -9,6 +9,11 @@
     margin-top: 0;
     padding-top: 27px;
     padding-bottom: 20px;
+
+    @media (min-width: $tablet-width) {
+      padding-top: 59px;
+      margin-bottom: 63px;
+    }
   }
 
   @media (min-width: $tablet-width) {

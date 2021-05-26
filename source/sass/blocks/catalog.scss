@@ -17,6 +17,14 @@
   }
 }
 
+.catalog__overflow {
+  overflow-x: hidden;
+
+  @media (min-width: $tablet-width) {
+    overflow-x: visible;
+  }
+}
+
 .catalog__display {
   display: grid;
   grid-template-columns: 1fr;
@@ -24,7 +32,8 @@
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    gap: 58px;
+    margin-bottom: 39px;
   }
 
   @media (min-width: $desktop-width) {
