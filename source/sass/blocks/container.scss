@@ -9,6 +9,8 @@
 
   @media (min-width: $tablet-width) {
     width: 768px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     &--form {
       padding-left: 69px;
@@ -20,13 +22,21 @@
       padding-right: 30px;
     }
 
-    padding-left: 30px;
-    padding-right: 30px;
+    &--form-top {
+      padding-left: 69px;
+      padding-right: 67px;
+    }
   }
 
   @media (min-width: $desktop-width) {
     width: 1440px;
     padding-left: 110px;
     padding-right: 110px;
+
+    &--form-top {
+      width: 569px;
+      margin: 0;
+      padding: 0;
+    }
   }
 }

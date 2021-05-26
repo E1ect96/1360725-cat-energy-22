@@ -87,6 +87,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 80px;
+    width: 1440px;
+    padding-left: 110px;
+    padding-right: 110px;
   }
 }
 
@@ -110,6 +113,8 @@
   @media (min-width: $tablet-width) {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin-bottom: 60px;
+    align-items: center;
+    margin-top: 7px;
+    margin-bottom: 82px;
   }
 }
