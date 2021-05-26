@@ -2,6 +2,10 @@
   display: block;
   position: relative;
   padding-bottom: 25px;
+
+  @media (min-width: $tablet-width) {
+    padding-bottom: 42px;
+  }
 }
 
 .checkbox__control {
@@ -11,12 +15,23 @@
   background: white;
   border: 1px solid $special_grey;
   margin-top: -5px;
+
+  @media (min-width: $tablet-width) {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 .checkbox__input:checked + .checkbox__control {
   background-image: url("../img/svg/tick.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .checkbox__name {
   padding-left: 45px;
+
+  @media (min-width: $tablet-width) {
+    padding-left: 60px;
+  }
 }

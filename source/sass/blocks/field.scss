@@ -39,12 +39,42 @@
     top: 18px;
     background-image: url("../img/svg/icon_phone.svg");
   }
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 20px;
+
+    &--email {
+      padding-left: 2px;
+    }
+
+    &--contacts:last-child .field__name {
+      margin-right: 15px;
+    }
+
+    &:last-child {
+      padding-top: 0;
+    }
+
+    &--email::after {
+      right: 16px;
+      top: 18px;
+    }
+
+    &--phone::after {
+      right: 16px;
+      top: 16px;
+    }
+  }
 }
 
 .field__name {
   flex-shrink: 0;
   margin-right: 13px;
   align-self: center;
+
+  @media (min-width: $tablet-width) {
+    margin-right: 19px;
+  }
 }
 
 .field__control {
@@ -54,4 +84,12 @@
   background-color: white;
   position: relative;
   z-index: 1;
+
+  @media (min-width: $tablet-width) {
+    padding: 10px 20px;
+
+    &--cat-name {
+      padding-left: 15px;
+    }
+  }
 }

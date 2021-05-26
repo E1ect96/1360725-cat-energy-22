@@ -15,6 +15,10 @@
   margin-top: 27px;
   padding-bottom: 24px;
   margin-bottom: 0;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 58px;
+  }
 }
 
 .page-main__subtitle {
@@ -32,7 +36,11 @@
   margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
+    width: 335px;
+    margin-top: 32px;
+    padding-bottom: 65px;
     font-size: 20px;
     line-height: 30px;
+    padding-left: 2px;
   }
 }
