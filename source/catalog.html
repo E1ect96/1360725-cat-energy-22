@@ -9,7 +9,7 @@
 </head>
 <body class="page__body">
   <header class="page-header">
-  <div class="container page-header__grid">
+  <div class="container container--header page-header__grid">
     <div class="page-header__top">
       <a class="page-header__logo">
         <img class="page-header__logo-image" src="img/svg/mobile-logo.svg" width="190" height="38" alt="Логотип Кэт энерджи">
@@ -30,12 +30,12 @@
   </div>
 </header>
   <main class="page-main">
-    <section class="catalog">
+    <section class="catalog form__overflow">
       <div class="container">
-        <h1 class="page-main__title">Каталог продукции</h1>
+        <h1 class="page-main__title page-main__title--catalog">Каталог продукции</h1>
         <div class="catalog__display">
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/chicken_s_desktop.png, img/png/catalog/chicken_s_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/chicken_s_mobile.png" srcset="img/png/catalog/chicken_s_mobile@2x.png 2x" alt="Cat Energy со вкусом курицы PRO 500 г">
             </picture>
@@ -59,7 +59,7 @@
             <a href="#" class="button button--product">Заказать</a>
           </article>
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/chicken_l_desktop.png, img/png/catalog/chicken_l_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/chicken_l_mobile.png" srcset="img/png/catalog/chicken_l_mobile@2x.png 2x" alt="Cat Energy со вкусом курицы PRO 1000 г">
             </picture>
@@ -83,7 +83,7 @@
             <a href="#" class="button button--product">Заказать</a>
           </article>
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/fish_s_desktop.png, img/png/catalog/fish_s_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/fish_s_mobile.png" srcset="img/png/catalog/fish_s_mobile@2x.png 2x" alt="Cat Energy со вкусом рыбы PRO 500 г">
             </picture>
@@ -107,12 +107,12 @@
             <a href="#" class="button button--product">Заказать</a>
           </article>
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/fish_l_desktop.png, img/png/catalog/fish_l_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/fish_l_mobile.png" srcset="img/png/catalog/fish_l_mobile@2x.png 2x" alt="Cat Energy со вкусом рыбы PRO 1000 г">
             </picture>
             <div class="product__description">
-              <h2 class="product__title">Cat Energy PRO 500 г</h2>
+              <h2 class="product__title">Cat Energy PRO 1000 г</h2>
               <table class="product__details">
                 <tr>
                   <td>Объём</td>
@@ -131,7 +131,7 @@
             <a href="#" class="button button--product">Заказать</a>
           </article>
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/buckwheat_s_desktop.png, img/png/catalog/buckwheat_s_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/buckwheat_s_mobile.png" srcset="img/png/catalog/buckwheat_s_mobile@2x.png 2x" alt="Cat Energy со вкусом гречки SLIM 500 г">
             </picture>
@@ -155,7 +155,7 @@
             <a href="#" class="button button--product">Заказать</a>
           </article>
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/buckwheat_l_desktop.png, img/png/catalog/buckwheat_l_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/buckwheat_l_mobile.png" srcset="img/png/catalog/buckwheat_l_mobile@2x.png 2x" alt="Cat Energy со вкусом гречки SLIM 1000 г">
             </picture>
@@ -179,7 +179,7 @@
             <a href="#" class="button button--product">Заказать</a>
           </article>
           <article class="product">
-            <picture>
+            <picture class="product__pic">
               <source media="(min-width: 768px)" srcset="img/png/catalog/rice_s_desktop.png, img/png/catalog/rice_s_desktop@2x.png 2x">
               <img class="product__img" src="img/png/catalog/rice_s_mobile.png" srcset="img/png/catalog/rice_s_mobile@2x.png 2x" alt="Cat Energy со вкусом риса SLIM 500 г">
             </picture>
@@ -268,7 +268,7 @@
             </ul>
             <div class="promo-action">
               <div class="promo-action__icon"></div>
-              <p class="promo-action__text">Закажите все и получите чехол для кота в подарок!</p>
+              <p class="promo-action__text">Закажите все <br>и получите чехол для кота в подарок!</p>
             </div>
           </div>
         </div>

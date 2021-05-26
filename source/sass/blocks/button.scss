@@ -63,8 +63,12 @@
 
 .button--product {
   display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 40px;
 
   @media (min-width: $tablet-width) {
     width: 248px;
@@ -80,6 +84,8 @@
 .button--show-more {
   padding: 10px 0;
   display: block;
+  font-size: 16px;
+  line-height: 20px;
 
   @media (min-width: $tablet-width) {
     width: 248px;
@@ -94,6 +100,8 @@
 }
 
 .button--additional {
+  font-size: 16px;
+  line-height: 20px;
   width: 280px;
   height: 40px;
   padding-top: 10px;
