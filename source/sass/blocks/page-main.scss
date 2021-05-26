@@ -12,7 +12,9 @@
 }
 
 .page-main__title--form {
-  padding-bottom: 37px;
+  margin-top: 27px;
+  padding-bottom: 24px;
+  margin-bottom: 0;
 }
 
 .page-main__subtitle {
@@ -25,7 +27,9 @@
 }
 
 .page-main__subtitle--form {
-  padding-bottom: 39px;
+  padding-bottom: 38px;
+  padding-right: 7px;
+  margin-bottom: 0;
 
   @media (min-width: $tablet-width) {
     font-size: 20px;

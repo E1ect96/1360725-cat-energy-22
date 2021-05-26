@@ -1,6 +1,44 @@
 .field {
   display: flex;
-  margin-bottom: 13px;
+  margin-bottom: 9px;
+
+  &:last-child {
+    padding-top: 4px;
+  }
+
+  &:nth-child(2) .field__name {
+    margin-right: 18px;
+  }
+
+  &--contacts {
+    position: relative;
+  }
+
+  &--contacts:last-child .field__name {
+    margin-right: 11px;
+  }
+
+  &--email::after {
+    content: "";
+    width: 20px;
+    height: 14px;
+    position: absolute;
+    z-index: 5;
+    right: 15px;
+    top: 19px;
+    background-image: url("../img/svg/icon_email.svg");
+  }
+
+  &--phone::after {
+    content: "";
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 5;
+    right: 13px;
+    top: 18px;
+    background-image: url("../img/svg/icon_phone.svg");
+  }
 }
 
 .field__name {
@@ -14,4 +52,6 @@
   border: 1px solid #e6e6e6;
   padding: 14px;
   background-color: white;
+  position: relative;
+  z-index: 1;
 }
