@@ -1,12 +1,43 @@
+
+.catalog {
+  position: relative;
+
+  &::after {
+    content: "";
+    position: absolute;
+    width: 100vw;
+    height: 1px;
+    background-color: #e6e6e6;
+    left: 0;
+    top: 0;
+
+    @media (min-width: $tablet-width) {
+      display: none;
+    }
+  }
+}
+
+.catalog__overflow {
+  overflow-x: hidden;
+
+  @media (min-width: $tablet-width) {
+    overflow-x: visible;
+  }
+}
+
 .catalog__display {
   display: grid;
   grid-template-columns: 1fr;
 
+
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 1fr;
+    gap: 58px;
+    margin-bottom: 39px;
   }
 
   @media (min-width: $desktop-width) {
     grid-template-columns: repeat(4, 1fr);
+    gap: 63px 80px;
   }
 }

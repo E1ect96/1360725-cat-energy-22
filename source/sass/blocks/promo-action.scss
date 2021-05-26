@@ -1,6 +1,86 @@
+.promo-action {
+  width: 280px;
+  height: 289px;
+  margin-bottom: 35px;
+  background-image: url("../img/png/gift-photo-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 280px auto;
+  display: grid;
+  justify-items: center;
+  margin-top: 39px;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../img/png/gift-photo-mobile@2x.png");
+    background-size: 560px auto;
+  }
+
+  @media (min-width: $tablet-width) {
+    grid-template-columns: 1fr 1fr;
+    height: 200px;
+    justify-content: space-around;
+    justify-items: start;
+    width: 708px;
+    margin-top: 66px;
+    margin-bottom: 76px;
+
+    background-image: url("../img/png/gift-photo-tablet.png");
+    background-size: 708px auto;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/png/gift-photo-tablet@2x.png");
+      background-size: 1416px auto;
+    }
+  }
+
+  @media (min-width: $desktop-width) {
+    grid-template-columns: 1fr;
+    height: 289px;
+    width: 245px;
+    margin-top: 16px;
+
+    background-image: url("../img/png/gift-photo-desktop.png");
+    background-size: 245px auto;
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../img/png/gift-photo-desktop@2x.png");
+      background-size: 490px auto;
+    }
+  }
+}
+
+.promo-action__icon {
+  content: "";
+  width: 78px;
+  height: 80px;
+  background-image: url("../img/svg/icon_gift.svg");
+  margin-top: 58px;
+
+  @media (min-width: $tablet-width) {
+    margin-left: 78px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 85px;
+  }
+}
+
 .promo-action__text {
   font-size: 16px;
   line-height: 20px;
   color: white;
-  background-color: $basic_green;
+  width: 161px;
+  text-align: center;
+  margin-top: 23px;
+
+  @media (min-width: $tablet-width) {
+    align-self: center;
+    text-align: left;
+    margin-left: 69px;
+  }
+
+  @media (min-width: $desktop-width) {
+    justify-self: center;
+    text-align: center;
+    margin: 0 0 23px;
+  }
 }

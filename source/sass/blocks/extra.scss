@@ -1,5 +1,9 @@
 .extra {
   border: 0;
+
+  @media (min-width: $desktop-width) {
+    padding-top: 11px;
+  }
 }
 
 .extra__list {
@@ -7,12 +11,17 @@
   grid-template-columns: 1fr;
   list-style: none;
   padding-inline-start: 0;
+  margin-bottom: 4px;
 
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 1fr;
+    grid-column-gap: 57px;
+    margin-bottom: 7px;
   }
 
   @media (min-width: $desktop-width) {
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 79px;
+    margin-top: 15px;
   }
 }

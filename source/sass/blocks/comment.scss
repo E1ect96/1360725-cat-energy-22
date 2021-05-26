@@ -1,7 +1,29 @@
+.comment {
+  @media (min-width: $tablet-width) {
+    margin-bottom: 49px;
+  }
+}
+
+.comment .form__title {
+  margin-top: 12px;
+  margin-bottom: 38px;
+  padding-right: 23px;
+
+  @media (min-width: $tablet-width) {
+    padding-right: 40px;
+  }
+}
+
 .comment__textarea {
   width: 100%;
   border: 1px solid #e6e6e6;
   overflow: auto;
   padding-top: 10px;
   padding-left: 15px;
+
+  @media (min-width: $tablet-width) {
+    margin-top: 37px;
+    height: 174px;
+    padding-left: 19px;
+  }
 }

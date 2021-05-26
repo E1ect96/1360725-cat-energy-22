@@ -10,6 +10,11 @@
   text-transform: uppercase;
   text-align: center;
   width: 100%;
+
+  @media (min-width: $tablet-width) {
+    font-size: 20px;
+    line-height: 20px;
+  }
 }
 
 .button--disable {
@@ -19,24 +24,97 @@
 
 .button--promo {
   width: 280px;
-  padding: 7px 0;
+  padding: 10px 0;
+
+  @media (min-width: $tablet-width) {
+    position: absolute;
+    width: 244px;
+    padding: 17px 0;
+    top: 288px;
+    left: 112px;
+  }
+
+  @media (min-width: $desktop-width) {
+    position: static;
+    margin-left: 80px;
+    margin-top: 52px;
+  }
 }
 
 .button--submit {
   font-size: 16px;
   line-height: 20px;
   border: none;
-  padding-top: 7px;
-  padding-bottom: 7px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  @media (min-width: $tablet-width) {
+    width: 282px;
+    height: 52px;
+    margin-left: 2px;
+    font-size: 20px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 568px;
+  }
 }
 
 .button--product {
   display: inline-block;
+  font-size: 16px;
+  line-height: 20px;
+  margin-top: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 40px;
+
+  @media (min-width: $tablet-width) {
+    width: 248px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 7px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 168px;
+  }
 }
 
 .button--show-more {
   padding: 10px 0;
   display: block;
+  font-size: 16px;
+  line-height: 20px;
+
+  @media (min-width: $tablet-width) {
+    width: 248px;
+    align-self: center;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 169px;
+  }
+}
+
+.button--additional {
+  font-size: 16px;
+  line-height: 20px;
+  width: 280px;
+  height: 40px;
+  padding-top: 10px;
+
+  @media (min-width: $tablet-width) {
+    font-size: 16px;
+    line-height: 20px;
+    width: 632px;
+    height: 38px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 244px;
+  }
 }
