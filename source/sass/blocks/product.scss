@@ -55,11 +55,6 @@
 
 .product:first-child .product__img {
   margin-bottom: 3px;
-}
-
-.program__description {
-  flex: 0 0 50%;
-  width: 50%;
 
   @media (min-width: $tablet-width) {
     margin-top: 0;
