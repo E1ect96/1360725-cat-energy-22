@@ -36,6 +36,7 @@
     grid-template-columns: 1fr;
     height: 289px;
     width: 245px;
+    margin-top: 16px;
 
     background-image: url("../img/png/gift-photo-desktop.png");
     background-size: 245px auto;
@@ -56,6 +57,10 @@
 
   @media (min-width: $tablet-width) {
     margin-left: 78px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-left: 85px;
   }
 }
 
