@@ -1,6 +1,10 @@
 .extra {
   border: 0;
 
+  @media (min-width: $tablet-width) {
+    padding-bottom: 0;
+  }
+
   @media (min-width: $desktop-width) {
     padding-top: 11px;
   }
@@ -16,7 +20,7 @@
   @media (min-width: $tablet-width) {
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 57px;
-    margin-bottom: 7px;
+    margin-bottom: 0;
   }
 
   @media (min-width: $desktop-width) {
