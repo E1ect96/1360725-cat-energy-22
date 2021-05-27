@@ -2,6 +2,14 @@
   position: relative;
 }
 
+.page-footer__wrapper {
+  background-color: $basic_grey;
+
+  &--main {
+    background-color: white;
+  }
+}
+
 .page-footer__bottom {
   display: flex;
   flex-direction: column;

@@ -6,6 +6,7 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="icon" href="favicon.ico">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sass/blocks/field.scss">
 </head>
 <body class="page__body">
   <header class="page-header">
@@ -91,11 +92,11 @@
               <div class="owner-contacts__wrapper">
                 <label class="field field--contacts field--email">
                   <span class="field__name text--form text--uppercase">E-mail:*</span>
-                  <input type="text" class="field__control text--form text--uppercase" placeholder="kuklachev@gmail.com" required>
+                  <input type="email" class="field__control text--form text--uppercase" placeholder="kuklachev@gmail.com" required>
                 </label>
                 <label class="field field--contacts field--phone">
                   <span class="field__name text--form text--uppercase">Телефон:*</span>
-                  <input type="text" class="field__control text--form text--uppercase" placeholder="8 (960) 900-60-90" required>
+                  <input type="tel" class="field__control text--form text--uppercase" placeholder="8 (960) 900-60-90" required>
                 </label>
               </div>
             </div>
@@ -151,7 +152,7 @@
       </form>
     </main>
   <footer class="page-footer">
-    <div class="contacts__wrapper">
+    <div class="page-footer__wrapper">
       <div class="container">
         <section class="contacts">
           <h2 class="contacts__title">Приглашаем<br>к сотрудничеству дилеров!</h2>
